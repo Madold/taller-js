@@ -1,8 +1,8 @@
-const trabajo = 8;
-const test = 7;
-const examen = 6;
+var trabajo = 8;
+var test = 7;
+var examen = 6;
 
-const notaFinal = 0.3 * trabajo + 0.4 * test + 0.3 * examen;
+var notaFinal = 0.3 * trabajo + 0.4 * test + 0.3 * examen;
 
 if (notaFinal >= 5) {
     console.log("El alumno es apto");

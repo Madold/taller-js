@@ -1,5 +1,5 @@
-const pesoGanado = 250;
-const costoConcentrado = (peso) => {
+var pesoGanado = 250;
+var costoConcentrado = (peso) => {
     if (peso >= 100 && peso <= 200) {
         return (peso / 100) * 2 * 200000;
     } else if (peso > 200 && peso <= 300) {
@@ -11,6 +11,6 @@ const costoConcentrado = (peso) => {
     }
 };
 
-const costoMensual = costoConcentrado(pesoGanado);
+var costoMensual = costoConcentrado(pesoGanado);
 
 console.log(`Costo mensual de concentrado: $${costoMensual}`);

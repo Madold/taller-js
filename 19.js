@@ -1,5 +1,5 @@
-const peliculasAlquiladas = 10;
-const precioAlquiler = 1200;
+var peliculasAlquiladas = 10;
+var precioAlquiler = 1200;
 let peliculasGratis = 0;
 
 if (peliculasAlquiladas > 15) {
@@ -10,8 +10,8 @@ if (peliculasAlquiladas > 15) {
     peliculasGratis = 1;
 }
 
-const peliculasEnCasa = peliculasAlquiladas + peliculasGratis;
-const totalPagar = peliculasAlquiladas * precioAlquiler;
+var peliculasEnCasa = peliculasAlquiladas + peliculasGratis;
+var totalPagar = peliculasAlquiladas * precioAlquiler;
 
 console.log(`Películas en casa: ${peliculasEnCasa}`);
 console.log(`Total a pagar: $${totalPagar}`);

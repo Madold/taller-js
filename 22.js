@@ -1,6 +1,6 @@
-const ingresosAnuales = 1300000;
-const estadoCivil = "casado";
-const tieneHijos = false;
+var ingresosAnuales = 1300000;
+var estadoCivil = "casado";
+var tieneHijos = false;
 
 if (ingresosAnuales > 1200000) {
     console.log("Se concede el crédito");

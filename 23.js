@@ -1,11 +1,11 @@
-const valorCompra = 725;
-const cantidadRecibida = 1000;
-const monedas = [100, 50, 25, 5, 1];
+var valorCompra = 725;
+var cantidadRecibida = 1000;
+var monedas = [100, 50, 25, 5, 1];
 let cantidadRestante = cantidadRecibida - valorCompra;
 let cambioMinimo = [];
 
 for (let moneda of monedas) {
-    const cantidadMoneda = Math.floor(cantidadRestante / moneda);
+    var cantidadMoneda = Math.floor(cantidadRestante / moneda);
     cambioMinimo.push(cantidadMoneda);
     cantidadRestante -= cantidadMoneda * moneda;
 }
